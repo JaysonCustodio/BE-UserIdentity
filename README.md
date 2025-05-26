@@ -21,11 +21,11 @@ A simple ASP.NET Core Web API to display and update digital user identity profil
 
 ```bash
 git clone https://github.com/JaysonCustodio/BE-UserIdentity.git
-cd UserIdentityApi
+cd BE-UserIdentity
 
 Project Structure
 
-UserIdentityApi/
+BE=UserIdentity/
 ├── Controllers/
 │   └── IdentitiesController.cs
 ├── Data/
