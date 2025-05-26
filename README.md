@@ -16,11 +16,11 @@ A simple ASP.NET Core Web API to display and update digital user identity profil
 
 ## Quick Start
 
-### 1. Clone or Download
+### 1. Clone or Download : https://github.com/JaysonCustodio/BE-UserIdentity.git
 ### 2. dotnet run (should have dotnet sdk installed)
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/JaysonCustodio/BE-UserIdentity.git
 cd UserIdentityApi
 
 Project Structure
