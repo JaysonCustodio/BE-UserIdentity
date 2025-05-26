@@ -3,15 +3,21 @@
 1. Azure Integration:
 Q: What Azure services would you recommend for a secure API gateway that connects multiple identity data sources to a centralized API? How would you handle authentication?
 
-  A: I recommend using Azure API Management (APIM) as a secure gateway for all API traffic. It allows central control of routing, rate limiting, and security. For authentication, I would use Azure Active Directory (AAD)      with OAuth 2.0 and JWT tokens. The Angular frontend can use MSAL to get a token and send it with each request. The .NET API validates the token using JWT middleware.
+  
+
+A: I recommend using Azure API Management (APIM) as a secure gateway for all API traffic. It allows central control of routing, rate limiting, and security. For authentication, I would use Azure Active Directory (AAD)      with OAuth 2.0 and JWT tokens. The Angular frontend can use MSAL to get a token and send it with each request. The .NET API validates the token using JWT middleware.
 
 2. Data Access:
 Q: How would you optimize SQL queries when dealing with large volumes of identity data in SQL Server? Provide a specific example of a technique you've used.
-  A: To optimize performance, I use indexes on frequently queried fields like Email, UserId, or LastUpdated. I also apply pagination in queries and APIs.
+  
+
+A: To optimize performance, I use indexes on frequently queried fields like Email, UserId, or LastUpdated. I also apply pagination in queries and APIs.
 
 
 3. Security:
 Q: How would you implement secure handling of personally identifiable information (PII) in an Angular and .NET Core application, both for data in transit and at rest?
+
+
   A: 
   -In transit: Use HTTPS and JWT-based authentication. Angular sends the token in requests; the API validates it.
   -At rest: Encrypt sensitive fields in the database (e.g., using .NET Data Protection or SQL field-level encryption).
@@ -20,6 +26,7 @@ Q: How would you implement secure handling of personally identifiable informatio
 
 4. DevOps:
 Q: Briefly describe how you would set up CI/CD for this application stack (Angular, .NET Core) in an Azure environment.
+
 
   A:
   -I would use Azure DevOps Pipelines or GitHub Actions for CI/CD. The pipeline would:
